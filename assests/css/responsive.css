@@ -1,0 +1,604 @@
+@media screen and (max-width: 1650px) {
+  .lemon {
+    position: absolute;
+    z-index: 1;
+    /* background-color: #201e1e; */
+    width: 400px;
+    height: 400px;
+    top: -78px;
+    right: 20%;
+  }
+  .Strawberry {
+    position: absolute;
+    z-index: 3;
+    /* background-color: #201e1e; */
+    width: 200px;
+    height: 200px;
+    /* bottom: -115px; */
+    right: 86%;
+    top: 210px;
+    /* background-color: red; */
+  }
+  .stick {
+    position: absolute;
+    z-index: 3;
+
+    width: 200px;
+    height: 200px;
+    right: 79%;
+    top: 490px;
+    /* background-color: red; */
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 10px;
+    right: -470px;
+    top: -250px;
+    /* overflow: hidden; */
+  }
+  .socialmedia {
+    position: absolute;
+    right: -290px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .chefimg {
+    height: 350px;
+    position: absolute;
+    top: 1px;
+    top: -343px;
+    left: 63%;
+  }
+  .chefimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .curryleaves {
+    height: 350px;
+    position: absolute;
+    top: 1px;
+    top: -212px;
+    left: 87%;
+  }
+  .curryleaves img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .lemon {
+    position: absolute;
+    z-index: 1;
+    /* background-color: #201e1e; */
+    width: 400px;
+    height: 400px;
+    top: -78px;
+    right: 10%;
+  }
+  .Strawberry {
+    position: absolute;
+    z-index: 3;
+    /* background-color: #201e1e; */
+    width: 200px;
+    height: 200px;
+    /* bottom: -115px; */
+    right: 86%;
+    top: 210px;
+    /* background-color: red; */
+  }
+  .stick {
+    position: absolute;
+    z-index: 3;
+
+    width: 200px;
+    height: 200px;
+    right: 79%;
+    top: 490px;
+    /* background-color: red; */
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 10px;
+    right: -555px;
+    top: -245px;
+    /* overflow: hidden; */
+  }
+  .socialmedia {
+    position: absolute;
+    right: -255px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 350px;
+    height: 350px;
+    left: 45%;
+  }
+  .lemon {
+    position: absolute;
+    z-index: 1;
+    /* background-color: #201e1e; */
+    width: 350px;
+    height: 350px;
+    top: -78px;
+    right: -3%;
+  }
+  .Strawberry {
+    position: absolute;
+    z-index: 3;
+    /* background-color: #201e1e; */
+    width: 81px;
+    height: 65px;
+    /* bottom: -115px; */
+    right: 93%;
+    top: 210px;
+    /* background-color: red; */
+  }
+  .stick {
+    position: absolute;
+    z-index: 3;
+
+    width: 81px;
+    height: 65px;
+    right: 76%;
+    top: 402px;
+    /* background-color: red; */
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 10px;
+    right: -771px;
+    top: -272px;
+    /* overflow: hidden; */
+  }
+  .leafs {
+    position: absolute;
+    z-index: 3;
+
+    width: 200px;
+    height: 200px;
+    right: -24%;
+    top: 426px;
+  }
+  .socialmedia {
+    position: absolute !important;
+    right: -235px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .curryleaves {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .sddg {
+    width: 80%;
+    /* background-color: red; */
+    /* margin-right: 155px; */
+  }
+  .leaf {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 107px;
+    width: 107px;
+  }
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 350px;
+    height: 350px;
+    left: 14%;
+  }
+  .lemon {
+    position: absolute;
+    z-index: 1;
+    /* background-color: #201e1e; */
+    width: 350px;
+    height: 350px;
+    top: -78px;
+    right: 34%;
+  }
+  .Strawberry {
+    position: absolute;
+    z-index: 3;
+    /* background-color: #201e1e; */
+    width: 81px;
+    height: 65px;
+    /* bottom: -115px; */
+    right: 460px;
+    top: 210px;
+    /* background-color: red; */
+  }
+  .stick {
+    position: absolute;
+    z-index: 3;
+
+    width: 81px;
+    height: 65px;
+    right: 85%;
+    top: 400px;
+    /* background-color: red; */
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 10px;
+    right: -774px;
+    top: -313px;
+    /* overflow: hidden; */
+  }
+  .leafs {
+    position: absolute;
+    z-index: 3;
+
+    width: 231px;
+    height: 200px;
+    right: 19%;
+    top: 426px;
+  }
+  .socialmedia {
+    position: absolute !important;
+    right: -110px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sddg {
+    width: 80%;
+    /* background-color: red; */
+    /* margin-right: 155px; */
+  }
+  .leaf {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 107px;
+    width: 80px;
+  }
+  .plate {
+    position: absolute;
+    z-index: 14;
+    width: 350px;
+    height: 350px;
+    left: 21%;
+  }
+  .lemon {
+    position: absolute;
+    z-index: 1;
+    /* background-color: #201e1e; */
+    width: 350px;
+    height: 350px;
+    top: -78px;
+    right: 23%;
+  }
+  .Strawberry {
+    position: absolute;
+    z-index: 3;
+    /* background-color: #201e1e; */
+    width: 81px;
+    height: 65px;
+    /* bottom: -115px; */
+    right: 460px;
+    top: 210px;
+    /* background-color: red; */
+  }
+  .stick {
+    position: absolute;
+    z-index: 3;
+
+    width: 81px;
+    height: 65px;
+    right: 85%;
+    top: 400px;
+    /* background-color: red; */
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 10px;
+    right: -774px;
+    top: -313px;
+    /* overflow: hidden; */
+  }
+  .leafs {
+    position: absolute;
+    z-index: 3;
+
+    width: 151px;
+    height: 120px;
+    right: 19%;
+    top: 370px;
+  }
+  .rowheight {
+    height: 950px;
+  }
+  .socialmedia {
+    position: absolute !important;
+    right: -81px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: #2f2d2d;
+    padding: 40px 0px;
+  }
+  .chefimg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .sddg {
+    width: 80%;
+    /* background-color: red; */
+    /* margin-right: 155px; */
+  }
+  .leaf {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 107px;
+    width: 80px;
+  }
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 270px;
+    height: 270px;
+    left: 37%;
+    top: 67px;
+  }
+  .lemon {
+    position: absolute;
+    z-index: 1;
+    /* background-color: #201e1e; */
+    width: 270px;
+    height: 270px;
+    top: 23px;
+    right: 30%;
+  }
+  .Strawberry {
+    position: absolute;
+    z-index: 3;
+    /* background-color: #201e1e; */
+    width: 70px;
+    height: 65px;
+    /* bottom: -115px; */
+    right: 420px;
+    top: 225px;
+    /* background-color: red; */
+  }
+  .stick {
+    position: absolute;
+    z-index: 3;
+
+    width: 81px;
+    height: 65px;
+    right: 60%;
+    top: 350px;
+    /* background-color: red; */
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 10px;
+    right: -774px;
+    top: -313px;
+    /* overflow: hidden; */
+  }
+  .leafs {
+    position: absolute;
+    z-index: 3;
+
+    width: 151px;
+    height: 120px;
+    right: 19%;
+    top: 370px;
+  }
+  .socialmedia {
+    position: absolute !important;
+    right: -71px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: #201e1e;
+    padding: 40px 0px;
+  }
+  .adve {
+    font-size: 40px;
+  }
+
+  .chefs-pecial {
+    color: red;
+    font-size: 20px;
+  }
+  .btn {
+    background-color: #201e1e !important;
+    padding: 15px 40px !important;
+    border-radius: 10px;
+  }
+  .btntitle {
+    color: white;
+    font-size: 15px;
+  }
+  .rowheight {
+    height: 550px;
+  }
+  .dsgdg {
+    margin-top: 900px !important;
+    /* background-color: #e62e2e; */
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    left: 37%;
+    top: 67px;
+  }
+  .lemon {
+    position: absolute;
+    z-index: 1;
+    /* background-color: #201e1e; */
+    width: 250px;
+    height: 250px;
+    top: 23px;
+    right: 30%;
+  }
+  .Strawberry {
+    position: absolute;
+    z-index: 3;
+    /* background-color: #201e1e; */
+    width: 70px;
+    height: 65px;
+    /* bottom: -115px; */
+    right: 380px;
+    top: 225px;
+    /* background-color: red; */
+  }
+  .stick {
+    position: absolute;
+    z-index: 3;
+
+    width: 81px;
+    height: 65px;
+    right: 60%;
+    top: 350px;
+    /* background-color: red; */
+  }
+  .socialmedia {
+    position: absolute !important;
+    right: -61px;
+    top: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: #201e1e;
+    /* padding: 40px 0px; */
+  }
+  .dsgdg {
+    margin-top: 700px !important;
+    /* background-color: #e62e2e; */
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .leaf {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 87px;
+    width: 87px;
+  }
+  .rowheight {
+    height: 500px;
+  }
+  .dsgdg {
+    margin-top: 600px !important;
+    /* background-color: #e62e2e; */
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .chefs-pecial {
+    color: red;
+    font-size: 17px;
+  }
+  .adve {
+    font-size: 35px;
+  }
+  .rowheight {
+    height: 300px;
+  }
+  .dsgdg {
+    margin-top: 500px !important;
+    /* background-color: #e62e2e; */
+    height: 400px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 472px) {
+  .dsgdg {
+    margin-top: 400px !important;
+    /* background-color: #e62e2e; */
+    height: 400px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .leaf {
+    display: none;
+  }
+  .chefs-pecial {
+    color: red;
+    font-size: 17px;
+  }
+  .adve {
+    font-size: 30px;
+  }
+  .btntitle {
+    color: white;
+    font-size: 12px;
+  }
+  .dsgdg {
+    margin-top: 300px !important;
+    /* background-color: #e62e2e; */
+    height: 400px;
+    width: 100%;
+  }
+}
