@@ -484,3 +484,10 @@ height:300px;
   width: 100%;
   object-fit: cover;
 }
+.partnerclients{
+  position: relative;
+}
+.sedi{
+  position: absolute;
+  top:-32px
+}

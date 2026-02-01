@@ -720,6 +720,46 @@
                         </div>
 
                 </section>
+                <div class=" d-flex justify-content-center align-items-center flex-column mt-5 mb-5 ">
+                        <div class="Customcontainer d-flex justify-content-center align-items-center flex-column">
+                                <div class="partnerclients">
+                                     
+                                          <img src="./assests/images/products and clients/Partners & Clients.png" class="img-fluid"/>
+                                          
+                                          <div class="sedi">
+                                          <img src="./assests/images/products and clients/unsplash_x1ZZWyDU8sU.png" class="img-fluid"/>
+
+                                          </div>
+
+
+                                     
+                                </div>
+
+
+                                <div class="row">
+                                        <div class="col-2">
+  <img src="./assests/images/products and clients/image 56.png" class="img-fluid"/>
+                                        </div>
+                                        <div class="col-2">
+  <img src="./assests/images/products and clients/image 57.png" class="img-fluid"/>
+                                        </div>
+                                        <div class="col-2">
+  <img src="./assests/images/products and clients/image 58.png" class="img-fluid"/>
+                                        </div>
+                                        <div class="col-2">
+  <img src="./assests/images/products and clients/image 59.png" class="img-fluid"/>
+                                        </div>
+                                        <div class="col-2">
+  <img src="./assests/images/products and clients/image 60.png" class="img-fluid"/>
+                                        </div>
+
+                                </div>
+                        </div>
+                </div>
+
+                <section>
+
+                </section>
         </main>
         <?php include('./includes/script.php'); ?>
 
