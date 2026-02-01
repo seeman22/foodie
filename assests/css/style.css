@@ -401,15 +401,22 @@ p {
 .feedbacontainer {
   margin-top: 7rem !important;
 }
+.teammembershin{
+  height:600px !important;
+  /* background-color: #000; */
+
+}
 .Team-membercontent {
   background-image: url("../images/feedback/Bg.png");
-  background-size: cover; /* cover whole div */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
+height:300px;
+  /* padding: 80px 0 400px; */
   width: 100%;
   position: relative;
 }
+
 .chefimg {
   height: 350px;
   position: absolute;
@@ -449,12 +456,8 @@ p {
   background-color: none;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.dsgdg {
-  margin-top: 350px !important;
-  /* background-color: #e62e2e; */
-  height: 400px;
-  width: 100%;
-}
+
+
 .qualityimg {
   height: 80px;
   width: 80px;
@@ -467,4 +470,17 @@ p {
 .Learmore {
   font-size: 20px;
   font-family: "DmSans-bold", sans-serif;
+}
+.cardcontent{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+}
+/* .imgcoffee{
+  width:350px;
+  height:400px;
+} */
+.imgcoffee img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }

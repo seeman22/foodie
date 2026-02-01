@@ -124,6 +124,11 @@
     align-items: center;
     gap: 16px;
   }
+  .teammembershin{
+  height:500px !important;
+  /* background-color: #000; */
+
+}
 }
 
 @media screen and (max-width: 1290px) {
@@ -275,6 +280,11 @@
     align-items: center;
     gap: 16px;
   }
+    .teammembershin{
+  height:450px !important;
+  /* background-color: #000; */
+
+}
 }
 
 @media screen and (max-width: 1000px) {
@@ -466,12 +476,11 @@
   .rowheight {
     height: 550px;
   }
-  .dsgdg {
-    margin-top: 900px !important;
-    /* background-color: #e62e2e; */
-    height: 400px;
-    width: 100%;
-  }
+  .teammembershin{
+  height:895px !important;
+  /* background-color: #000; */
+
+}
 }
 
 @media screen and (max-width: 890px) {
@@ -527,12 +536,7 @@
     background-color: #201e1e;
     /* padding: 40px 0px; */
   }
-  .dsgdg {
-    margin-top: 700px !important;
-    /* background-color: #e62e2e; */
-    height: 400px;
-    width: 100%;
-  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -546,12 +550,12 @@
   .rowheight {
     height: 500px;
   }
-  .dsgdg {
-    margin-top: 600px !important;
-    /* background-color: #e62e2e; */
-    height: 400px;
-    width: 100%;
-  }
+    .teammembershin{
+  height:795px !important;
+  /* background-color: #000; */
+
+}
+ 
 }
 
 @media screen and (max-width: 576px) {
@@ -565,20 +569,19 @@
   .rowheight {
     height: 300px;
   }
-  .dsgdg {
-    margin-top: 500px !important;
-    /* background-color: #e62e2e; */
-    height: 400px;
-    width: 100%;
-  }
+    .teammembershin{
+  height:655px !important;
+  /* background-color: #000; */
+
+}
+ 
 }
 @media screen and (max-width: 472px) {
-  .dsgdg {
-    margin-top: 400px !important;
-    /* background-color: #e62e2e; */
-    height: 400px;
-    width: 100%;
-  }
+    .teammembershin{
+  height:555px !important;
+  /* background-color: #000; */
+
+}
 }
 @media screen and (max-width: 380px) {
   .leaf {
@@ -595,10 +598,5 @@
     color: white;
     font-size: 12px;
   }
-  .dsgdg {
-    margin-top: 300px !important;
-    /* background-color: #e62e2e; */
-    height: 400px;
-    width: 100%;
-  }
+
 }

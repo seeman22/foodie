@@ -5,13 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <?php include ('./includes/head.php'); ?>
+        <?php include('./includes/head.php'); ?>
 
 </head>
 
 <body>
-        <?php include ('./includes/header.php'); ?>
-        <?php include ('./includes/homepage.php'); ?>
+        <?php include('./includes/header.php'); ?>
+        <?php include('./includes/homepage.php'); ?>
 
         <main>
                 <section>
@@ -398,97 +398,99 @@
 
 
                 <section>
-                        <div class="Team-membercontent">
-                                <div class="chefimg">
-                                        <img src="./assests/images/feedback/image.png" class="img-fluid" />
+                        <div class="teammembershin">
+                                <div class="Team-membercontent">
+                                        <div class="chefimg">
+                                                <img src="./assests/images/feedback/image.png" class="img-fluid" />
 
-                                </div>
+                                        </div>
 
-                                <div class="curryleaves">
-                                        <img src="./assests/images/feedback/unsplash_1qnIDA6gZ1g.png" class="img-fluid" />
+                                        <div class="curryleaves">
+                                                <img src="./assests/images/feedback/unsplash_1qnIDA6gZ1g.png" class="img-fluid" />
 
-                                </div>
-
-
-                                <div class="Team-memberstitlecontainer d-flex justify-content-center align-items-center  flex-column pt-5">
-                                        <h3 class="Team-title">Team Members</h3>
-                                        <p class="Team-title ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                Varius sed pharetra dictum neque massa congue</p>
+                                        </div>
 
 
-                                </div>
-                                <div class=" d-flex justify-content-center align-items-center">
-                                        <div class="Customcontainer">
-                                                <div class="row g-3 p-2 ">
-                                                        <div class="col-6 col-lg-3">
-                                                                <div class="card">
+                                        <div class="Team-memberstitlecontainer d-flex justify-content-center align-items-center  flex-column pt-5">
+                                                <h3 class="Team-title">Team Members</h3>
+                                                <p class="Team-title ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        Varius sed pharetra dictum neque massa congue</p>
 
-                                                                        <div class="img-wrap">
-                                                                                <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
 
-                                                                        </div>
-                                                                        <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
-                                                                                <h4>Mark henery</h4>
-                                                                                <p>chef</p>
-                                                                        </div>
-                                                                </div>
-                                                        </div>
-                                                        <div class="col-6 col-lg-3">
-                                                                <div class="card">
+                                        </div>
+                                        <div class=" d-flex justify-content-center align-items-center ">
+                                                <div class="Customcontainer">
+                                                        <div class="row g-3 p-2 ">
+                                                                <div class="col-6 col-lg-3">
+                                                                        <div class="card">
 
-                                                                        <div class="img-wrap">
-                                                                                <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
-                                                                        </div>
-                                                                        <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
-                                                                                <h4>Mark henery</h4>
-                                                                                <p>chef</p>
+                                                                                <div class="img-wrap">
+                                                                                        <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
+
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
+                                                                                        <h4>Mark henery</h4>
+                                                                                        <p>chef</p>
+                                                                                </div>
                                                                         </div>
                                                                 </div>
-                                                        </div>
-                                                        <div class="col-6 col-lg-3">
+                                                                <div class="col-6 col-lg-3">
+                                                                        <div class="card">
 
-                                                                <div class="card">
-
-                                                                        <div class="img-wrap">
-                                                                                <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
-                                                                        </div>
-                                                                        <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
-                                                                                <h4>Mark henery</h4>
-                                                                                <p>chef</p>
-                                                                        </div>
-                                                                </div>
-                                                        </div>
-                                                        <div class="col-6 col-lg-3">
-
-                                                                <div class="card">
-
-                                                                        <div class="img-wrap">
-                                                                                <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
-
-                                                                        </div>
-                                                                        <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
-                                                                                <h4>Mark henery</h4>
-                                                                                <p>chef</p>
+                                                                                <div class="img-wrap">
+                                                                                        <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
+                                                                                        <h4>Mark henery</h4>
+                                                                                        <p>chef</p>
+                                                                                </div>
                                                                         </div>
                                                                 </div>
+                                                                <div class="col-6 col-lg-3">
+
+                                                                        <div class="card">
+
+                                                                                <div class="img-wrap">
+                                                                                        <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
+                                                                                        <h4>Mark henery</h4>
+                                                                                        <p>chef</p>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="col-6 col-lg-3">
+
+                                                                        <div class="card">
+
+                                                                                <div class="img-wrap">
+                                                                                        <img src="./assests/images/owners/Mark Henry.png" alt="Breakfast Food" class="img-fluid">
+
+                                                                                </div>
+                                                                                <div class="d-flex justify-content-center align-items-center  flex-column pb-2">
+                                                                                        <h4>Mark henery</h4>
+                                                                                        <p>chef</p>
+                                                                                </div>
+                                                                        </div>
 
 
+                                                                </div>
                                                         </div>
                                                 </div>
                                         </div>
+
+
                                 </div>
-
-
                         </div>
                 </section>
 
 
                 <section>
-                        <div class="dsgdg ">
+                        <div class="dsgdg">
                                 <div class="d-flex justify-content-center align-items-center">
                                         <div class="Customcontainer">
-                                                <div class="row pt-5">
-                                                        <div class="col-6 col-lg-3">
+                                                <div class="row  g-3">
+                                                        <div class="col-12 col-md-6 col-lg-3">
                                                                 <div class="card p-5">
                                                                         <div class="d-flex justify-content-center align-items-center  flex-column ">
                                                                                 <div class="qualityimg">
@@ -509,7 +511,7 @@
                                                                 </div>
                                                         </div>
 
-                                                             <div class="col-6 col-lg-3">
+                                                        <div class="col-12 col-md-6 col-lg-3">
                                                                 <div class="card p-5">
                                                                         <div class="d-flex justify-content-center align-items-center  flex-column ">
                                                                                 <div class="qualityimg">
@@ -530,7 +532,7 @@
                                                                 </div>
                                                         </div>
 
-                                                             <div class="col-6 col-lg-3">
+                                                        <div class="col-12 col-md-6 col-lg-3">
                                                                 <div class="card p-5">
                                                                         <div class="d-flex justify-content-center align-items-center  flex-column ">
                                                                                 <div class="qualityimg">
@@ -551,7 +553,7 @@
                                                                 </div>
                                                         </div>
 
-                                                             <div class="col-6 col-lg-3">
+                                                        <div class="col-12 col-md-6 col-lg-3">
                                                                 <div class="card p-5">
                                                                         <div class="d-flex justify-content-center align-items-center  flex-column ">
                                                                                 <div class="qualityimg">
@@ -582,32 +584,144 @@
 
 
                 <section>
-                       <div class=" d-flex justify-content-center align-items-center mt-5 mb-5">
+                        <div class=" d-flex justify-content-center align-items-center flex-column mt-5 mb-5">
                                 <div class="Customcontainer">
                                         <div class="d-flex flex-column align-items-center justify-content-center">
                                                 <h2>Latest news & Blog</h2>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Varius sed pharetra dictum neque massa congue</p>
+                                                        Varius sed pharetra dictum neque massa congue</p>
                                         </div>
 
 
-<!-- 
-                                        <div class="row">
-                                                                <div class="card p-5">
-                                                          <img src=""/>
 
 
 
+                                        <div class="row pt-2">
+                                                <div class="col-4">
+                                                        <div class="cardcontent">
+
+                                                                <div class="imgcoffee">
+                                                                        <img src="./assests/images/lastest and blogs/unsplash_WBMi3TLZdZc.png" class="img-fluid" />
+                                                                </div>
+
+                                                                <div class="row pt-2">
+                                                                        <div class="col">
+                                                                                <div class="d-flex">
+                                                                                        <img src="./assests//images/lastest and blogs/Calendar.png" />
+                                                                                        <p>02 Jan 2022</p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                        <div class="col">
+                                                                                <div class="d-flex">
+                                                                                        <img src="./assests//images/lastest and blogs/Chats.png" />
+                                                                                        <p>Commments</p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                </div>
+
+                                                                <h3 class="pt-2">Chocolate Truffle Cake With
+                                                                        Honey Flavor</h3>
+
+                                                                <p>Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
+
+                                                                <div class="d-flex pt-5">
+                                                                        <p>Read More</p>
 
                                                                 </div>
 
-                                        </div> -->
+                                                        </div>
+
+                                                </div>
+
+
+                                                <div class="col-4">
+                                                        <div class="cardcontent">
+
+                                                                <div class="imgcoffee">
+                                                                        <img src="./assests/images/lastest and blogs/unsplash_WBMi3TLZdZc.png" class="img-fluid" />
+                                                                </div>
+
+                                                                <div class="row pt-2">
+                                                                        <div class="col">
+                                                                                <div class="d-flex">
+                                                                                        <img src="./assests//images/lastest and blogs/Calendar.png" />
+                                                                                        <p>02 Jan 2022</p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                        <div class="col">
+                                                                                <div class="d-flex">
+                                                                                        <img src="./assests//images/lastest and blogs/Chats.png" />
+                                                                                        <p>Commments</p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                </div>
+
+                                                                <h3 class="pt-2">Chocolate Truffle Cake With
+                                                                        Honey Flavor</h3>
+
+                                                                <p>Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
+
+                                                                <div class="d-flex pt-5">
+                                                                        <p>Read More</p>
+
+                                                                </div>
+
+                                                        </div>
+
+                                                </div>
+
+
+
+                                                <div class="col-4">
+                                                        <div class="cardcontent">
+
+                                                                <div class="imgcoffee">
+                                                                        <img src="./assests/images/lastest and blogs/unsplash_WBMi3TLZdZc.png" class="img-fluid" />
+                                                                </div>
+
+                                                                <div class="row pt-2">
+                                                                        <div class="col">
+                                                                                <div class="d-flex">
+                                                                                        <img src="./assests//images/lastest and blogs/Calendar.png" />
+                                                                                        <p>02 Jan 2022</p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                        <div class="col">
+                                                                                <div class="d-flex">
+                                                                                        <img src="./assests//images/lastest and blogs/Chats.png" />
+                                                                                        <p>Commments</p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                </div>
+
+                                                                <h3 class="pt-2">Chocolate Truffle Cake With
+                                                                        Honey Flavor</h3>
+
+                                                                <p>Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
+
+                                                                <div class="d-flex pt-5">
+                                                                        <p>Read More</p>
+
+                                                                </div>
+
+                                                        </div>
+
+                                                </div>
+
+                                        </div>
                                 </div>
-                       </div>
+
+                        </div>
 
                 </section>
         </main>
-        <?php include ('./includes/script.php'); ?>
+        <?php include('./includes/script.php'); ?>
 
 </body>
 
