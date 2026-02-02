@@ -1,4 +1,11 @@
 @media screen and (max-width: 1650px) {
+  .leaf {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 257px;
+    width: 257px;
+  }
   .lemon {
     position: absolute;
     z-index: 1;
@@ -6,7 +13,14 @@
     width: 400px;
     height: 400px;
     top: -78px;
-    right: 20%;
+    right: 37%;
+  }
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 450px;
+    height: 450px;
+    left: 24%;
   }
   .Strawberry {
     position: absolute;
@@ -15,7 +29,7 @@
     width: 200px;
     height: 200px;
     /* bottom: -115px; */
-    right: 86%;
+    right: 93%;
     top: 210px;
     /* background-color: red; */
   }
@@ -32,13 +46,13 @@
   .backgroundImage {
     position: absolute;
     top: 10px;
-    right: -470px;
+    right: -585px;
     top: -250px;
     /* overflow: hidden; */
   }
   .socialmedia {
     position: absolute;
-    right: -290px;
+    right: -190px;
     top: 20%;
     transform: translateY(-50%);
     z-index: 10;
@@ -73,16 +87,33 @@
     height: 100%;
     object-fit: cover;
   }
+  .smallsocialmedia {
+    display: none !important;
+  }
 }
 @media screen and (max-width: 1450px) {
+  .leaf {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 207px;
+    width: 207px;
+  }
   .lemon {
     position: absolute;
     z-index: 1;
     /* background-color: #201e1e; */
     width: 400px;
     height: 400px;
-    top: -78px;
-    right: 10%;
+    top: -62px;
+    right: 33%;
+  }
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 450px;
+    height: 450px;
+    left: 21%;
   }
   .Strawberry {
     position: absolute;
@@ -91,7 +122,7 @@
     width: 200px;
     height: 200px;
     /* bottom: -115px; */
-    right: 86%;
+    right: 100%;
     top: 210px;
     /* background-color: red; */
   }
@@ -108,13 +139,13 @@
   .backgroundImage {
     position: absolute;
     top: 10px;
-    right: -555px;
+    right: -635px;
     top: -245px;
     /* overflow: hidden; */
   }
   .socialmedia {
     position: absolute;
-    right: -255px;
+    right: -170px;
     top: 20%;
     transform: translateY(-50%);
     z-index: 10;
@@ -124,29 +155,38 @@
     align-items: center;
     gap: 16px;
   }
-  .teammembershin{
-  height:500px !important;
-  /* background-color: #000; */
-
-}
+  .teammembershin {
+    height: 500px !important;
+    /* background-color: #000; */
+  }
+  .smallsocialmedia {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 1290px) {
+  .leaf {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    height: 167px;
+    width: 167px;
+  }
   .plate {
     position: absolute;
     z-index: 3;
-    width: 350px;
-    height: 350px;
-    left: 45%;
+    width: 400px;
+    height: 400px;
+    left: 17%;
   }
   .lemon {
     position: absolute;
     z-index: 1;
     /* background-color: #201e1e; */
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     top: -78px;
-    right: -3%;
+    right: 32%;
   }
   .Strawberry {
     position: absolute;
@@ -155,7 +195,7 @@
     width: 81px;
     height: 65px;
     /* bottom: -115px; */
-    right: 93%;
+    right: 110%;
     top: 210px;
     /* background-color: red; */
   }
@@ -165,7 +205,7 @@
 
     width: 81px;
     height: 65px;
-    right: 76%;
+    right: 83%;
     top: 402px;
     /* background-color: red; */
   }
@@ -173,7 +213,7 @@
     position: absolute;
     top: 10px;
     right: -771px;
-    top: -272px;
+    top: -331px;
     /* overflow: hidden; */
   }
   .leafs {
@@ -187,7 +227,7 @@
   }
   .socialmedia {
     position: absolute !important;
-    right: -235px;
+    right: -150px;
     top: 20%;
     transform: translateY(-50%);
     z-index: 10;
@@ -199,6 +239,18 @@
   }
   .curryleaves {
     display: none;
+  }
+  .Copyrightcontainer {
+    width: 95% !important;
+  }
+  .cauliflower {
+    display: none;
+  }
+  .Team-membercontent {
+    height: 250px !important;
+  }
+  .smallsocialmedia {
+    display: none !important;
   }
 }
 
@@ -220,7 +272,7 @@
     z-index: 3;
     width: 350px;
     height: 350px;
-    left: 14%;
+    left: 17%;
   }
   .lemon {
     position: absolute;
@@ -228,8 +280,8 @@
     /* background-color: #201e1e; */
     width: 350px;
     height: 350px;
-    top: -78px;
-    right: 34%;
+    top: -69px;
+    right: 31%;
   }
   .Strawberry {
     position: absolute;
@@ -280,11 +332,23 @@
     align-items: center;
     gap: 16px;
   }
-    .teammembershin{
-  height:450px !important;
-  /* background-color: #000; */
-
-}
+  .teammembershin {
+    height: 450px !important;
+    /* background-color: #000; */
+  }
+  .common-title {
+    font-size: 17px;
+  }
+  .common-para {
+    font-size: 14px;
+  }
+  .Team-para {
+    font-size: 14px;
+    /* background-color: red; */
+  }
+  .smallsocialmedia {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -297,8 +361,8 @@
     position: absolute;
     top: 10px;
     left: 1px;
-    height: 107px;
-    width: 80px;
+    height: 127px;
+    width: 127px;
   }
   .plate {
     position: absolute;
@@ -323,7 +387,7 @@
     width: 81px;
     height: 65px;
     /* bottom: -115px; */
-    right: 460px;
+    right: 425px;
     top: 210px;
     /* background-color: red; */
   }
@@ -357,19 +421,25 @@
     height: 950px;
   }
   .socialmedia {
-    position: absolute !important;
-    right: -81px;
-    top: 20%;
-    transform: translateY(-50%);
-    z-index: 10;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    background-color: #2f2d2d;
-    padding: 40px 0px;
+    display: none;
   }
+  .smallsocialmedia {
+    display: flex !important;
+    visibility: visible;
+    /* background-color: #1a5d00; */
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    right: -71px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallsocialmedia i {
+    font-size: 26px;
+    cursor: pointer;
+  }
+
   .chefimg {
     display: none;
   }
@@ -442,20 +512,7 @@
     right: 19%;
     top: 370px;
   }
-  .socialmedia {
-    position: absolute !important;
-    right: -71px;
-    top: 20%;
-    transform: translateY(-50%);
-    z-index: 10;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    background-color: #201e1e;
-    padding: 40px 0px;
-  }
   .adve {
     font-size: 40px;
   }
@@ -476,11 +533,20 @@
   .rowheight {
     height: 550px;
   }
-  .teammembershin{
-  height:895px !important;
-  /* background-color: #000; */
-
-}
+  .teammembershin {
+    height: 895px !important;
+    /* background-color: #000; */
+  }
+  .common-title {
+    font-size: 22px;
+  }
+  .common-para {
+    font-size: 18px;
+  }
+  .Team-para {
+    font-size: 18px;
+    /* background-color: red; */
+  }
 }
 
 @media screen and (max-width: 890px) {
@@ -489,7 +555,7 @@
     z-index: 3;
     width: 250px;
     height: 250px;
-    left: 37%;
+    left: 42%;
     top: 67px;
   }
   .lemon {
@@ -499,7 +565,7 @@
     width: 250px;
     height: 250px;
     top: 23px;
-    right: 30%;
+    right: 23%;
   }
   .Strawberry {
     position: absolute;
@@ -508,7 +574,7 @@
     width: 70px;
     height: 65px;
     /* bottom: -115px; */
-    right: 380px;
+    right: 335px;
     top: 225px;
     /* background-color: red; */
   }
@@ -522,21 +588,6 @@
     top: 350px;
     /* background-color: red; */
   }
-  .socialmedia {
-    position: absolute !important;
-    right: -61px;
-    top: 20%;
-    transform: translateY(-50%);
-    z-index: 10;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    background-color: #201e1e;
-    /* padding: 40px 0px; */
-  }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -548,14 +599,34 @@
     width: 87px;
   }
   .rowheight {
-    height: 500px;
+    height: 360px;
   }
-    .teammembershin{
-  height:795px !important;
-  /* background-color: #000; */
-
-}
- 
+  .teammembershin {
+    height: 795px !important;
+    /* background-color: #000; */
+  }
+  .footer-leaves {
+    display: none;
+  }
+  .common-title {
+    font-size: 17px;
+  }
+  .common-para {
+    font-size: 14px;
+  }
+  .Team-para {
+    font-size: 14px;
+    /* background-color: red; */
+  }
+  .Learmore {
+    font-size: 17px;
+    font-family: "DmSans-bold", sans-serif;
+  }
+  .choose-carousel .owl-dots .owl-dot span {
+    width: 7px !important;
+    height: 7px !important;
+    margin: 3px 3px !important;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -569,19 +640,21 @@
   .rowheight {
     height: 300px;
   }
-    .teammembershin{
-  height:655px !important;
-  /* background-color: #000; */
-
-}
- 
+  .teammembershin {
+    height: 1750px !important;
+    /* background-color: #000; */
+  }
 }
 @media screen and (max-width: 472px) {
-    .teammembershin{
-  height:555px !important;
-  /* background-color: #000; */
+  .teammembershin {
+    height: 555px !important;
 
-}
+    /* background-color: #000; */
+  }
+  .teammembershin {
+    height: 1500px !important;
+    /* background-color: #000; */
+  }
 }
 @media screen and (max-width: 380px) {
   .leaf {
@@ -598,5 +671,36 @@
     color: white;
     font-size: 12px;
   }
+  .teammembershin {
+    height: 1240px !important;
+    /* background-color: #000; */
+  }
+  .choose-carousel .owl-dots .owl-dot span {
+    width: 5px !important;
+    height: 5px !important;
+    margin: 3px 2px !important;
+    /* border: none; */
+    /* background-color: #2f2d2d; */
+  }
+  .showmorebtn {
+    background-color: #1a5d00;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .webseries span {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .client-box {
+    width: 140px;
+    height: 100px;
+    aspect-ratio: 1 / 1; /* PERFECT square */
 
+    /* background-color: red; */
+  }
 }

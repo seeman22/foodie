@@ -7,7 +7,7 @@
     <div class=" d-none justify-content-center align-items-center mt-5 d-md-flex">
         <div class="sddg">
             <div class="row rowheight">
-                <div class="col-12 col-md-4 col-lg-6">
+                <div class="col-12 col-md-4 col-lg-6 d-flex flex-column justifty-content-center justifty-content-lg-start  ">
                     <p class="chefs-pecial">CHEF’S SPECIAL</p>
 
                     <h3 class="adve pt-2">
@@ -60,6 +60,12 @@
   <img src="../assests/images/homepage/Symbol (1).png" />
   <img src="../assests/images/homepage/Symbol.png" />
   <img src="../assests/images/homepage/Symbol (2).png" />
+</div>
+
+<div class="d-flex d-lg-none flex-column smallsocialmedia">
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-pinterest"></i>
+    <i class="bi bi-dribbble"></i>
 </div>
 
                 </div>

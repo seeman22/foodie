@@ -10,22 +10,65 @@
                     <img src="../assests/images/Group 1000002268.png" class="img-fluid" />
                 </div>
 
-                <div class="d-none d-md-flex">
-                    <div class="row g-5">
-                        <div class="col-auto">
-                            <p>Home</p>
-                        </div>
-                        <div class="col-auto">
-                            <p>Menu</p>
-                        </div>
-                        <div class="col-auto">
-                            <p>Services</p>
-                        </div>
-                        <div class="col-auto">
-                            <p>Offers</p>
-                        </div>
-                    </div>
-                </div>
+         <div class="d-none d-md-flex">
+    <div class="row g-5 align-items-center">
+
+        <div class="col-auto">
+            <p class="mb-0">Home</p>
+        </div>
+
+ <div class="col-auto dropdown">
+    <div class="d-flex align-items-center gap-1">
+
+        <p class="mb-0" style="cursor:pointer;">Menu</p>
+
+        <img
+            src="../assests/images/Group 1 (1).png"
+            class="dropdown-toggle"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="cursor: pointer;"
+        />
+    </div>
+
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Delivery</a></li>
+        <li><a class="dropdown-item" href="#">Catering</a></li>
+        <li><a class="dropdown-item" href="#">Online Order</a></li>
+    </ul>
+</div>
+
+        <!-- Services Dropdown -->
+ <div class="col-auto dropdown">
+    <div class="d-flex align-items-center gap-1">
+
+        <p class="mb-0" style="cursor:pointer;">Services</p>
+
+        <img
+            src="../assests/images/Group 1 (1).png"
+            class="dropdown-toggle"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="cursor: pointer;"
+        />
+    </div>
+
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Delivery</a></li>
+        <li><a class="dropdown-item" href="#">Catering</a></li>
+        <li><a class="dropdown-item" href="#">Online Order</a></li>
+    </ul>
+</div>
+
+
+        <div class="col-auto">
+            <p class="mb-0">Offers</p>
+        </div>
+
+    </div>
+</div>
 
                 <div class="Contacts d-none d-md-flex ">
                   <div class="row">
