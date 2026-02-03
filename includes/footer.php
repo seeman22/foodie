@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer-container d-flex justify-content-center align-items-center">
+    <div class="footer-container d-flex justify-content-center align-items-center p-5 reveal">
         <div class="footer-leaves">
             <img src="../assests/images/footer/unsplash_x1ZZWyDU8sU.png" class="img-fluid" />
         </div>
@@ -17,7 +17,7 @@
 
                     <div class="inputboxparent pt-4">
                         <div class="sendmailinput">
-                            <p  class="common-para" style="color:#828282;">Enter your email</p>
+                            <p class="common-para" style="color:#828282;">Enter your email</p>
                         </div>
                         <div class="grenrockt">
                             <img src="../assests/images/footer/Send Button.png" class="img-fluid" />
@@ -51,20 +51,20 @@
 
 
                     <div class="d-flex pt-4  gap-3">
-                        <img src="../assests/images/footer/MapPin.png" />
-                        <p  class="common-para">Kolkata India , 3rd Floor, Office 45</p>
+                        <i class="bi bi-geo-alt"></i>
+                        <p class="common-para">Kolkata India , 3rd Floor, Office 45</p>
                     </div>
                     <div class="d-flex pt-3 gap-3">
-                        <img src="../assests/images/footer/Phone.png" />
-                        <p  class="common-para">00965 - 96659986</p>
+                        <i class="bi bi-telephone"></i>
+                        <p class="common-para">00965 - 96659986</p>
                     </div>
                     <div class="d-flex pt-3 gap-3">
-                        <img src="../assests/images/footer/EnvelopeSimpleOpen.png" />
-                        <p  class="common-para">M.Alyaqout@4house.Co</p>
+                        <i class="bi bi-envelope-open"></i>
+                        <p class="common-para">M.Alyaqout@4house.Co</p>
                     </div>
                     <div class="d-flex pt-3 gap-3">
-                        <img src="../assests/images/footer/Clock.png" />
-                        <p  class="common-para">Sun - Sat / 10:00 AM - 8:00 PM</p>
+                        <i class="bi bi-clock"></i>
+                        <p class="common-para">Sun - Sat / 10:00 AM - 8:00 PM</p>
                     </div>
 
                 </div>
@@ -72,10 +72,10 @@
                     <h3>Links</h3>
                     <ul class="footer-links pt-4">
                         <li class="common-para"><a href="">About Us</a></li>
-                        <li  class="common-para" ><a href="">Contact Us</a></li>
-                        <li  class="common-para"><a href="">Our Menu</a></li>
-                        <li  class="common-para"><a href="">Team</a></li>
-                        <li  class="common-para"><a href="">FAQ</a></li>
+                        <li class="common-para"><a href="">Contact Us</a></li>
+                        <li class="common-para"><a href="">Our Menu</a></li>
+                        <li class="common-para"><a href="">Team</a></li>
+                        <li class="common-para"><a href="">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
@@ -105,7 +105,7 @@
         </div>
 
         <div class="cauliflower">
-<img src="../assests/images/footer/unsplash_yCuVsIknzhY.png" class="img-fluid"/>
+            <img src="../assests/images/footer/unsplash_yCuVsIknzhY.png" class="img-fluid" />
         </div>
     </div>
 

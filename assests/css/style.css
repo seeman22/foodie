@@ -26,7 +26,11 @@ body {
 p {
   margin: 0 !important;
 }
-
+.sdefsdg {
+  width: 75%;
+  /* background-color: red; */
+  /* margin-left: 235px; */
+}
 .sddg {
   width: 75%;
   /* background-color: red; */
@@ -75,24 +79,38 @@ p {
   /* background-color: red; */
 }
 .rowheight {
-  height: 1000px;
+  height: 800px !important;
 }
+.foodie-carousel {
+  position: relative;
+}
+
+.foodie-carousel .item {
+  position: relative; /* REQUIRED */
+  height: 500px; /* REQUIRED */
+  z-index: 10;
+}
+
 .plate {
   position: absolute;
-  z-index: 3;
-  width: 450px;
-  height: 450px;
+  z-index: 9999;
+  width: 400px;
+  height: 400px;
   left: 30%;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
 .lemon {
   position: absolute;
-  z-index: 1;
+  z-index: 5;
   /* background-color: #201e1e; */
-  width: 450px;
-  height: 450px;
-  top: -78px;
+  width: 400px;
+  height: 400px;
+  top: -24px;
   right: 33%;
 }
+
 .Strawberry {
   position: absolute;
   z-index: 3;
@@ -100,7 +118,7 @@ p {
   width: 200px;
   height: 200px;
   /* bottom: -115px; */
-  right: 95%;
+  right: 90%;
   top: 210px;
   /* background-color: red; */
 }
@@ -111,16 +129,16 @@ p {
   width: 200px;
   height: 200px;
   right: 70%;
-  top: 490px;
+  top: 453px;
   /* background-color: red; */
 }
 .leafs {
   position: absolute;
   z-index: 3;
 
-  width: 300px;
-  height: 300px;
-  right: 8%;
+  width: 244px;
+  height: 200px;
+  right: 14%;
   top: 426px;
 }
 
@@ -129,10 +147,13 @@ p {
 }
 
 .backgroundImage {
+  transform: rotate(12deg);
   position: absolute;
-  top: 10px;
-  right: -554px;
-  top: -227px;
+  right: -685px;
+
+  top: -122px;
+  height: 927px;
+  width: 1273px;
   /* overflow: hidden; */
 }
 
@@ -424,7 +445,8 @@ p {
   margin-top: 7rem !important;
 }
 .teammembershin {
-  height: 600px !important;
+  height: 650px !important;
+  /* background-color: red !important; */
   /* background-color: #000; */
 }
 .Team-membercontent {
@@ -441,27 +463,56 @@ p {
 .chefimg {
   height: 350px;
   position: absolute;
-  top: 1px;
-  top: -343px;
+  top: -340px; /* base position */
   left: 70%;
+  animation: chefMove 5s ease-in-out infinite;
 }
+
 .chefimg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+@keyframes chefMove {
+  0% {
+    top: -340px;
+  }
+  50% {
+    top: -300px; /* move down 10px */
+  }
+  100% {
+    top: -340px;
+  }
+}
+/* ======================= */
+
 .curryleaves {
   height: 350px;
   position: absolute;
-  top: 1px;
   top: -212px;
   left: 90%;
+  animation: leavesMove 5s ease-in-out infinite;
 }
+
 .curryleaves img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+@keyframes leavesMove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-30px); /* move left */
+  }
+  100% {
+    transform: translateX(0); /* back to original */
+  }
+}
+
 .Team-title {
   color: white;
 }
@@ -608,4 +659,49 @@ p {
 }
 .Copyrightcontainer {
   width: 80%;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease-in-out;
+}
+
+/* When visible */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* container */
+.whyChooseusContainer {
+  width: 100%;
+  /* background-color: red; */
+  transition: all 0.8s ease-in-out;
+}
+
+/* when content is visible */
+.whyChooseusContainer.active {
+  width: 80%;
+  background-color: transparent;
+}
+
+/* reveal animation */
+.reveal-left,
+.reveal-right {
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+}
+
+.reveal-left {
+  transform: translateX(-150px);
+}
+
+.reveal-right {
+  transform: translateX(250px);
+}
+
+.reveal-left.active,
+.reveal-right.active {
+  opacity: 1;
+  transform: translateX(0);
 }

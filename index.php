@@ -15,17 +15,25 @@
 
         <main>
                 <section>
-                        <div class="Get-start-container   d-flex justify-content-center align-items-center ">
-                                <div class="Customcontainer">
-                                        <div class="row">
+                        <div class="Get-start-container   d-flex justify-content-center align-items-center mb-5 ">
+                                <div class="Customcontainer  pb-5">
+                                        <div class="row reveal ">
                                                 <div class="col-12 col-lg-6">
                                                         <p class="pizzadelivery-title">PIZZA DELIVERY</p>
                                                         <h2 class="section-title">Get Started Today !</h2>
                                                         <p class="common-para">Everything you need to build an amazing food restaurant responsive website.</p>
                                                         <p class="common-para">Hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis.</p>
-                                                        <div class="row">
-                                                                <div>
-                                                                        <img src="/assests/images/get started/Rectangle 4591.png" class="img-fluid" />
+                                                        <div class="row pt-2">
+                                                                <div class="col-6">
+                                                                        <div>
+                                                                                <img src="/assests/images/get started/Rectangle 4591.png" class="img-fluid" />
+                                                                        </div>
+                                                                </div>
+
+                                                                <div class="col-6">
+                                                                        <div>
+                                                                                <img src="/assests/images/get started/Rectangle 4591.png" class="img-fluid" />
+                                                                        </div>
                                                                 </div>
 
                                                         </div>
@@ -63,17 +71,17 @@
                                                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.
                                                                 </p>
 
-            
-   <div class="d-flex w-100 gap-3 pt-2"> 
-     <button class="showmorebtn">
-            Show more
-        </button>
 
-          <div class="webseries d-flex align-items-center gap-2">
-            <img src="/assests/images/get started/Component 1.png" alt="play" />
-            <span>Web series</span>
-        </div>
-   </div>
+                                                                <div class="d-flex w-100 gap-3 pt-2">
+                                                                        <button class="showmorebtn">
+                                                                                Show more
+                                                                        </button>
+
+                                                                        <div class="webseries d-flex align-items-center gap-2">
+                                                                                <img src="/assests/images/get started/Component 1.png" alt="play" />
+                                                                                <span>Web series</span>
+                                                                        </div>
+                                                                </div>
 
 
 
@@ -92,16 +100,16 @@
 
                 <section>
 
-                        <div class=" d-flex justify-content-center align-items-center mt-5">
-                                <div class="Customcontainer">
-                                        <div class="row">
-                                                <div class="col-lg-6">
+                        <div class=" d-flex justify-content-center align-items-center  mt-5">
+                                <div class="whyChooseusContainer pt-5 pb-5">
+                                        <div class="row reveal-wrapper">
+                                                <div class="col-lg-6 reveal-left">
                                                         <img src="./assests/images/why we choose/image 28.png" class="img-fluid" />
 
                                                 </div>
 
 
-                                                <div class="col-lg-6">
+                                                <div class="col-lg-6 reveal-right">
                                                         <h3>
                                                                 Why People Choose us?
                                                         </h3>
@@ -164,13 +172,13 @@
                 <section>
 
                         <div class=" d-flex justify-content-center align-items-center mt-5 mb-5">
-                                <div class="Customcontainer">
+                                <div class="Customcontainer pt-5 pb-5">
                                         <div class="d-flex flex-column align-items-center justify-content-center">
                                                 <h2>Our best Seller Dishes🔥🔥</h2>
                                                 <p class="common-para">Our fresh garden salad is a light and refreshing option. It features a mix of crisp lettuce, juicy tomatoe all tossed in your choice of dressing.</p>
                                         </div>
 
-                                        <div class="row mt-3 g-3">
+                                        <div class="row mt-3 g-3 reveal">
 
                                                 <div class="col-12 col-md-6 col-lg-4">
                                                         <div class="category-card">
@@ -301,6 +309,12 @@
                                                                                 <p class="price">
 
                                                                         </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
                 </section>
 
 
@@ -308,8 +322,8 @@
 
 
                 <section>
-                        <div class=" d-flex justify-content-center align-items-center feedbacontainer">
-                                <div class="Customcontainer">
+                        <div class=" d-flex justify-content-center align-items-center feedbacontainer mt-5 ">
+                                <div class="Customcontainer  pt-5">
 
                                         <div class="row">
 
@@ -416,7 +430,7 @@
                                         </div>
                                         <div class=" d-flex justify-content-center align-items-center ">
                                                 <div class="Customcontainer">
-                                                        <div class="row g-3 p-2 ">
+                                                        <div class="row g-3 p-2 reveal ">
                                                                 <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                                                                         <div class="Teamcardcontent">
 
@@ -482,12 +496,12 @@
 
 
                 <section>
-                        <div class="dsgdg">
+                        <div class="dsgdg reveal">
                                 <div class="d-flex justify-content-center align-items-center">
                                         <div class="Customcontainer">
                                                 <div class="row  g-3">
                                                         <div class="col-12 col-md-6 col-lg-6 col-xl-3">
-                                                                <div class="card p-5">
+                                                                <div class="cardcontent p-5">
                                                                         <div class="d-flex justify-content-center align-items-center  flex-column ">
                                                                                 <div class="qualityimg">
                                                                                         <img src="./assests/images/qualities/01.png" alt="Breakfast Food" class="img-fluid">
@@ -519,7 +533,7 @@
                                                                                         <p class="common-para">Contrary to popular belief, Lorem Ipsum is not simply random text</p>
 
                                                                                 </div>
-                                                                                <p class="Learmore">Learn more</p>
+                                                                                <p class="Learmore" style="color:red;">Learn more</p>
                                                                         </div>
 
 
@@ -529,7 +543,7 @@
                                                         </div>
 
                                                         <div class="col-12 col-md-6 col-lg-6 col-xl-3">
-                                                                <div class="card p-5">
+                                                                <div class="cardcontent p-5">
                                                                         <div class="d-flex justify-content-center align-items-center  flex-column ">
                                                                                 <div class="qualityimg">
                                                                                         <img src="./assests/images/qualities/4.png" alt="Breakfast Food" class="img-fluid">
@@ -550,7 +564,7 @@
                                                         </div>
 
                                                         <div class="col-12 col-md-6 col-lg-6 col-xl-3">
-                                                                <div class="card p-5">
+                                                                <div class="cardcontent p-5">
                                                                         <div class="d-flex justify-content-center align-items-center  flex-column ">
                                                                                 <div class="qualityimg">
                                                                                         <img src="./assests/images/qualities/5.png" alt="Breakfast Food" class="img-fluid">
@@ -584,18 +598,18 @@
                                 <div class="Customcontainer">
                                         <div class="d-flex flex-column align-items-center justify-content-center">
                                                 <h2>Latest news & Blog</h2>
-                                
-     <p class="ps-5 common-para">Lorem ipsum dolor sit amet, consectetur adipiscing<br>
+
+                                                <p class="ps-5 common-para">Lorem ipsum dolor sit amet, consectetur adipiscing<br>
                                                         Varius sed pharetra dictum neque massa congue</p>
-                                                 
+
                                         </div>
-            
 
 
 
 
-                                        <div class="row pt-2 g-3">
-                                                  <div class="col-12  col-lg-4">
+
+                                        <div class="row pt-2 g-3 reveal">
+                                                <div class="col-12  col-lg-4">
                                                         <div class="cardcontent">
 
                                                                 <div class="imgcoffee">
@@ -604,9 +618,55 @@
 
                                                                 <div class="row pt-2 ps-3">
                                                                         <div class="col">
+                                                                                <div class="d-flex gap-2         ">
+                                                                                        <i class="bi bi-calendar-date" style="font-size: 20px; color:green"></i>
+                                                                                        <p class="common-para pt-1">02 Jan 2022</p>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="col">
                                                                                 <div class="d-flex">
-                                                                                        <img src="./assests//images/lastest and blogs/Calendar.png" />
-                                                                                        <p class="common-para">02 Jan 2022</p>
+                                                                                        <img src="./assests//images/lastest and blogs/Chats.png" />
+                                                                                        <p class="common-para">Commments</p>
+                                                                                </div>
+
+                                                                        </div>
+                                                                </div>
+
+                                                                <div class="ps-3">
+                                                                        <h3 class="pt-2 common-title">Chocolate Truffle Cake With<br>
+                                                                                Honey Flavor</h3>
+                                                                        <p class="common-para">Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
+
+                                                                        <div class="d-flex pt-4 gap-3">
+                                                                                <p>Read More</p>
+                                                                                <div>
+                                                                                        <img src="./assests/images/lastest and blogs/ArrowRight.png" class="img-fluid" />
+                                                                                </div>
+
+                                                                        </div>
+
+
+                                                                </div>
+
+
+
+                                                        </div>
+
+                                                </div>
+
+
+                                                <div class="col-12  col-lg-4">
+                                                        <div class="cardcontent">
+
+                                                                <div class="imgcoffee">
+                                                                        <img src="./assests/images/lastest and blogs/unsplash_WBMi3TLZdZc.png" class="img-fluid" />
+                                                                </div>
+
+                                                                <div class="row pt-2 ps-3">
+                                                                        <div class="col">
+                                                                                <div class="d-flex gap-2         ">
+                                                                                        <i class="bi bi-calendar-date" style="font-size: 20px; color:green"></i>
+                                                                                        <p class="common-para pt-1">02 Jan 2022</p>
                                                                                 </div>
 
                                                                         </div>
@@ -627,54 +687,7 @@
                                                                         <div class="d-flex pt-4 gap-3">
                                                                                 <p>Read More</p>
                                                                                 <div>
-                                                                                        <img src="./assests/images/lastest and blogs/ArrowRight.png" class="img-fluid"/>
-                                                                                </div>
-
-                                                                        </div>
-
-
-                                                                </div>
-
-
-
-                                                        </div>
-
-                                                </div>
-
-
-                                               <div class="col-12  col-lg-4">
-                                                        <div class="cardcontent">
-
-                                                                <div class="imgcoffee">
-                                                                        <img src="./assests/images/lastest and blogs/unsplash_WBMi3TLZdZc.png" class="img-fluid" />
-                                                                </div>
-
-                                                                <div class="row pt-2 ps-3">
-                                                                        <div class="col">
-                                                                                <div class="d-flex">
-                                                                                        <img src="./assests//images/lastest and blogs/Calendar.png" />
-                                                                                        <p class="common-para">02 Jan 2022</p>
-                                                                                </div>
-
-                                                                        </div>
-                                                                        <div class="col">
-                                                                                <div class="d-flex">
-                                                                                        <img src="./assests//images/lastest and blogs/Chats.png" />
-                                                                                        <p class="common-para">Commments</p>
-                                                                                </div>
-
-                                                                        </div>
-                                                                </div>
-
-        <div class="ps-3">
-                                                                        <h3 class="pt-2 common-title">Chocolate Truffle Cake With<br>
-                                                                                Honey Flavor</h3>
-                                                                        <p class="common-para">Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
-
-                                                                        <div class="d-flex pt-4 gap-3">
-                                                                                <p>Read More</p>
-                                                                                <div>
-                                                                                        <img src="./assests/images/lastest and blogs/ArrowRight.png" class="img-fluid"/>
+                                                                                        <img src="./assests/images/lastest and blogs/ArrowRight.png" class="img-fluid" />
                                                                                 </div>
 
                                                                         </div>
@@ -698,9 +711,9 @@
 
                                                                 <div class="row pt-2 ps-3">
                                                                         <div class="col">
-                                                                                <div class="d-flex">
-                                                                                        <img src="./assests//images/lastest and blogs/Calendar.png" />
-                                                                                        <p class="common-para">02 Jan 2022</p>
+                                                                                <div class="d-flex gap-2         ">
+                                                                                        <i class="bi bi-calendar-date" style="font-size: 20px; color:green"></i>
+                                                                                        <p class="common-para pt-1">02 Jan 2022</p>
                                                                                 </div>
 
                                                                         </div>
@@ -713,7 +726,7 @@
                                                                         </div>
                                                                 </div>
 
-                                                                    <div class="ps-3">
+                                                                <div class="ps-3">
                                                                         <h3 class="pt-2 common-title">Chocolate Truffle Cake With<br>
                                                                                 Honey Flavor</h3>
                                                                         <p class="common-para">Lorem ipsum dolor sit amet, consectetur elit. Non mi sed etiam a id at ultricies neque.Tempus,poten diam ac integer id tellus est.</p>
@@ -721,7 +734,7 @@
                                                                         <div class="d-flex pt-4 gap-3">
                                                                                 <p>Read More</p>
                                                                                 <div>
-                                                                                        <img src="./assests/images/lastest and blogs/ArrowRight.png" class="img-fluid"/>
+                                                                                        <img src="./assests/images/lastest and blogs/ArrowRight.png" class="img-fluid" />
                                                                                 </div>
 
                                                                         </div>
@@ -744,7 +757,7 @@
 
 
                 <section>
-                        <div class=" d-flex justify-content-center align-items-center flex-column mt-5 mb-5 ">
+                        <div class="reveal  d-flex justify-content-center align-items-center flex-column mt-5 mb-5 ">
                                 <div class="partnerclientscontainer
  d-flex justify-content-center align-items-center flex-column pt-5">
                                         <div class="partnerclients">
@@ -759,40 +772,40 @@
 
 
                                         </div>
-<h2 class="pt-3 common-title">We work with the best pepole</h2>
+                                        <h2 class="pt-3 common-title">We work with the best pepole</h2>
 
-                                   <div class="row ">
-    <div class="col-6 col-md-2 col-lg-2 ">
-        <div class="client-box">
-            <img src="./assests/images/products and clients/clients 1.png" />
-        </div>
-    </div>
-    <div class="col-6 col-md-2 col-lg-2 ">
-        <div class="client-box">
-            <img src="./assests/images/products and clients/clients 2.png" />
-        </div>
-    </div>
-    <div class="col-6 col-md-2 col-lg-2 ">
-        <div class="client-box">
-            <img src="./assests/images/products and clients/clients 3.png" />
-        </div>
-    </div>
-    <div class="col-6 col-md-2 col-lg-2 ">
-        <div class="client-box">
-            <img src="./assests/images/products and clients/clients 4.png" />
-        </div>
-    </div>
-    <div class="col-6 col-md-2 col-lg-2 ">
-        <div class="client-box">
-            <img src="./assests/images/products and clients/clients 5.png" />
-        </div>
-    </div>
-    <div class="col-6 col-md-2 col-lg-2 ">
-     <div class="client-box">
-            <img src="./assests/images/products and clients/clients 6.png" />
-        </div>
-    </div>
-</div>
+                                        <div class="row ">
+                                                <div class="col-6 col-md-2 col-lg-2 ">
+                                                        <div class="client-box">
+                                                                <img src="./assests/images/products and clients/clients 1.png" />
+                                                        </div>
+                                                </div>
+                                                <div class="col-6 col-md-2 col-lg-2 ">
+                                                        <div class="client-box">
+                                                                <img src="./assests/images/products and clients/clients 2.png" />
+                                                        </div>
+                                                </div>
+                                                <div class="col-6 col-md-2 col-lg-2 ">
+                                                        <div class="client-box">
+                                                                <img src="./assests/images/products and clients/clients 3.png" />
+                                                        </div>
+                                                </div>
+                                                <div class="col-6 col-md-2 col-lg-2 ">
+                                                        <div class="client-box">
+                                                                <img src="./assests/images/products and clients/clients 4.png" />
+                                                        </div>
+                                                </div>
+                                                <div class="col-6 col-md-2 col-lg-2 ">
+                                                        <div class="client-box">
+                                                                <img src="./assests/images/products and clients/clients 5.png" />
+                                                        </div>
+                                                </div>
+                                                <div class="col-6 col-md-2 col-lg-2 ">
+                                                        <div class="client-box">
+                                                                <img src="./assests/images/products and clients/clients 6.png" />
+                                                        </div>
+                                                </div>
+                                        </div>
 
                                 </div>
                         </div>

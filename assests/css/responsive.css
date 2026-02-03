@@ -6,22 +6,39 @@
     height: 257px;
     width: 257px;
   }
-  .lemon {
-    position: absolute;
-    z-index: 1;
-    /* background-color: #201e1e; */
-    width: 400px;
-    height: 400px;
-    top: -78px;
-    right: 37%;
+  .rowheight {
+    height: 850px !important;
   }
+  .foodie-carousel {
+    position: relative;
+  }
+
+  .foodie-carousel .item {
+    position: relative; /* REQUIRED */
+    height: 500px; /* REQUIRED */
+    z-index: 10;
+  }
+
   .plate {
     position: absolute;
-    z-index: 3;
-    width: 450px;
-    height: 450px;
-    left: 24%;
+    z-index: 9999;
+    width: 350px;
+    height: 350px;
+    left: 21%;
+    top: 50%;
+    transform: translateY(-50%);
   }
+
+  .lemon {
+    position: absolute;
+    z-index: 5;
+    /* background-color: #201e1e; */
+    width: 350px;
+    height: 350px;
+    top: 17px;
+    right: 43%;
+  }
+
   .Strawberry {
     position: absolute;
     z-index: 3;
@@ -43,13 +60,26 @@
     top: 490px;
     /* background-color: red; */
   }
+  .leafs {
+    position: absolute;
+    z-index: 3;
+
+    width: 244px;
+    height: 200px;
+    right: 14%;
+    top: 426px;
+  }
   .backgroundImage {
+    transform: rotate(16deg);
     position: absolute;
     top: 10px;
-    right: -585px;
-    top: -250px;
+    right: -685px;
+    top: -107px;
+    height: 927px;
+    width: 1273px;
     /* overflow: hidden; */
   }
+
   .socialmedia {
     position: absolute;
     right: -190px;
@@ -99,6 +129,9 @@
     height: 207px;
     width: 207px;
   }
+  .rowheight {
+    height: 800px !important;
+  }
   .lemon {
     position: absolute;
     z-index: 1;
@@ -106,14 +139,15 @@
     width: 400px;
     height: 400px;
     top: -62px;
-    right: 33%;
+    right: 24%;
   }
   .plate {
     position: absolute;
     z-index: 3;
-    width: 450px;
-    height: 450px;
-    left: 21%;
+    width: 320px;
+    height: 320px;
+    left: 29%;
+    top: 239px;
   }
   .Strawberry {
     position: absolute;
@@ -137,12 +171,25 @@
     /* background-color: red; */
   }
   .backgroundImage {
+    transform: rotate(13deg);
     position: absolute;
     top: 10px;
-    right: -635px;
-    top: -245px;
+    right: -685px;
+    top: -113px;
+    height: 927px;
+    width: 1273px;
     /* overflow: hidden; */
   }
+  .leafs {
+    position: absolute;
+    z-index: 3;
+
+    width: 244px;
+    height: 200px;
+    right: 31%;
+    top: 426px;
+  }
+
   .socialmedia {
     position: absolute;
     right: -170px;
@@ -172,12 +219,9 @@
     height: 167px;
     width: 167px;
   }
-  .plate {
-    position: absolute;
-    z-index: 3;
-    width: 400px;
-    height: 400px;
-    left: 17%;
+
+  .rowheight {
+    height: 750px !important;
   }
   .lemon {
     position: absolute;
@@ -185,8 +229,16 @@
     /* background-color: #201e1e; */
     width: 400px;
     height: 400px;
-    top: -78px;
-    right: 32%;
+    top: -62px;
+    right: 24%;
+  }
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 320px;
+    height: 320px;
+    left: 17%;
+    top: 239px;
   }
   .Strawberry {
     position: absolute;
@@ -195,7 +247,7 @@
     width: 81px;
     height: 65px;
     /* bottom: -115px; */
-    right: 110%;
+    right: 114%;
     top: 210px;
     /* background-color: red; */
   }
@@ -205,25 +257,28 @@
 
     width: 81px;
     height: 65px;
-    right: 83%;
+    right: 100%;
     top: 402px;
     /* background-color: red; */
   }
   .backgroundImage {
+    transform: rotate(10deg);
     position: absolute;
     top: 10px;
-    right: -771px;
-    top: -331px;
+    right: -730px;
+    top: -116px;
+    height: 871px;
+    width: 1273px;
     /* overflow: hidden; */
   }
   .leafs {
     position: absolute;
     z-index: 3;
 
-    width: 200px;
+    width: 244px;
     height: 200px;
-    right: -24%;
-    top: 426px;
+    right: 31%;
+    top: 358px;
   }
   .socialmedia {
     position: absolute !important;
@@ -254,7 +309,7 @@
   }
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1180px) {
   .sddg {
     width: 80%;
     /* background-color: red; */
@@ -267,21 +322,22 @@
     height: 107px;
     width: 107px;
   }
-  .plate {
-    position: absolute;
-    z-index: 3;
-    width: 350px;
-    height: 350px;
-    left: 17%;
-  }
   .lemon {
     position: absolute;
     z-index: 1;
     /* background-color: #201e1e; */
-    width: 350px;
-    height: 350px;
-    top: -69px;
-    right: 31%;
+    width: 320px;
+    height: 320px;
+    top: 17px;
+    right: 28%;
+  }
+  .plate {
+    position: absolute;
+    z-index: 3;
+    width: 320px;
+    height: 320px;
+    left: 17%;
+    top: 239px;
   }
   .Strawberry {
     position: absolute;
@@ -290,7 +346,7 @@
     width: 81px;
     height: 65px;
     /* bottom: -115px; */
-    right: 460px;
+    right: 510px;
     top: 210px;
     /* background-color: red; */
   }
@@ -300,25 +356,28 @@
 
     width: 81px;
     height: 65px;
-    right: 85%;
+    right: 91%;
     top: 400px;
     /* background-color: red; */
   }
   .backgroundImage {
+    transform: rotate(10deg);
     position: absolute;
     top: 10px;
-    right: -774px;
-    top: -313px;
+    right: -850px;
+    top: -116px;
+    height: 871px;
+    width: 1273px;
     /* overflow: hidden; */
   }
   .leafs {
     position: absolute;
     z-index: 3;
 
-    width: 231px;
+    width: 244px;
     height: 200px;
     right: 19%;
-    top: 426px;
+    top: 358px;
   }
   .socialmedia {
     position: absolute !important;
@@ -364,21 +423,16 @@
     height: 127px;
     width: 127px;
   }
+  .lemon {
+    display: none !important;
+  }
   .plate {
     position: absolute;
-    z-index: 14;
-    width: 350px;
-    height: 350px;
-    left: 21%;
-  }
-  .lemon {
-    position: absolute;
-    z-index: 1;
-    /* background-color: #201e1e; */
-    width: 350px;
-    height: 350px;
-    top: -78px;
-    right: 23%;
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+    left: 16%;
+    top: 239px;
   }
   .Strawberry {
     position: absolute;
@@ -387,7 +441,7 @@
     width: 81px;
     height: 65px;
     /* bottom: -115px; */
-    right: 425px;
+    right: 450px;
     top: 210px;
     /* background-color: red; */
   }
@@ -397,25 +451,31 @@
 
     width: 81px;
     height: 65px;
-    right: 85%;
+    right: 91%;
     top: 400px;
     /* background-color: red; */
   }
+  /* .hero-carousel .item {
+    background-color: red;
+  } */
   .backgroundImage {
+    transform: rotate(10deg);
     position: absolute;
-    top: 10px;
-    right: -774px;
-    top: -313px;
+    right: -860px;
+    top: -179px;
+    height: 871px;
+    width: 1273px;
+
     /* overflow: hidden; */
   }
   .leafs {
     position: absolute;
     z-index: 3;
 
-    width: 151px;
-    height: 120px;
-    right: 19%;
-    top: 370px;
+    width: 180px;
+    height: 100px;
+    right: 36%;
+    top: 390px;
   }
   .rowheight {
     height: 950px;
@@ -429,7 +489,7 @@
     /* background-color: #1a5d00; */
     width: 50px;
     position: absolute;
-    top: 150px;
+    top: 80px;
     right: -71px;
     gap: 10px;
     justify-content: center;
@@ -442,6 +502,26 @@
 
   .chefimg {
     display: none;
+  }
+  .chefs-pecial {
+    color: red;
+    font-size: 20px;
+  }
+  .btn {
+    background-color: #201e1e !important;
+    padding: 15px 40px !important;
+    border-radius: 10px;
+  }
+  .btntitle {
+    color: white;
+    font-size: 15px;
+  }
+  .adve {
+    font-size: 30px;
+    font-family: "DmSans-bold", sans-serif;
+  }
+  .rowheight {
+    height: 680px;
   }
 }
 
@@ -458,22 +538,23 @@
     height: 107px;
     width: 80px;
   }
+
+  .lemon {
+    /* position: absolute;
+    z-index: 1;
+    width: 270px;
+    height: 270px;
+    top: -21px;
+    right: 36%; */
+    display: none;
+  }
   .plate {
     position: absolute;
     z-index: 3;
     width: 270px;
     height: 270px;
-    left: 37%;
-    top: 67px;
-  }
-  .lemon {
-    position: absolute;
-    z-index: 1;
-    /* background-color: #201e1e; */
-    width: 270px;
-    height: 270px;
-    top: 23px;
-    right: 30%;
+    left: 16%;
+    top: 173px;
   }
   .Strawberry {
     position: absolute;
@@ -482,8 +563,9 @@
     width: 70px;
     height: 65px;
     /* bottom: -115px; */
-    right: 420px;
-    top: 225px;
+    right: 381px;
+    top: 169px;
+
     /* background-color: red; */
   }
   .stick {
@@ -493,7 +575,7 @@
     width: 81px;
     height: 65px;
     right: 60%;
-    top: 350px;
+    top: 320px;
     /* background-color: red; */
   }
   .backgroundImage {
@@ -510,7 +592,7 @@
     width: 151px;
     height: 120px;
     right: 19%;
-    top: 370px;
+    top: 330px;
   }
 
   .adve {
@@ -550,33 +632,26 @@
 }
 
 @media screen and (max-width: 890px) {
+  .lemon {
+    /* position: absolute;
+    z-index: 1;
+    background-color: #201e1e;
+    width: 220px;
+    height: 220px;
+    top: -2px;
+    right: 42%; */
+    display: none;
+  }
   .plate {
     position: absolute;
     z-index: 3;
-    width: 250px;
-    height: 250px;
-    left: 42%;
-    top: 67px;
-  }
-  .lemon {
-    position: absolute;
-    z-index: 1;
-    /* background-color: #201e1e; */
-    width: 250px;
-    height: 250px;
-    top: 23px;
-    right: 23%;
+    width: 220px;
+    height: 220px;
+    left: 14%;
+    top: 157px;
   }
   .Strawberry {
-    position: absolute;
-    z-index: 3;
-    /* background-color: #201e1e; */
-    width: 70px;
-    height: 65px;
-    /* bottom: -115px; */
-    right: 335px;
-    top: 225px;
-    /* background-color: red; */
+    display: none;
   }
   .stick {
     position: absolute;
@@ -585,9 +660,55 @@
     width: 81px;
     height: 65px;
     right: 60%;
-    top: 350px;
+    top: 310px;
     /* background-color: red; */
   }
+  .leafs {
+    position: absolute;
+    z-index: 3;
+
+    width: 160px;
+    height: 200px;
+    right: 9%;
+    top: 297px;
+  }
+
+  .chefs-pecial {
+    color: red;
+    font-size: 20px;
+  }
+  .adve {
+    font-size: 30px;
+  }
+  .btn {
+    background-color: #201e1e !important;
+    padding: 15px 40px !important;
+    border-radius: 10px;
+  }
+  .btntitle {
+    color: white;
+    font-size: 15px;
+  }
+  .rowheight {
+    height: 550px;
+  }
+  .teammembershin {
+    height: 895px !important;
+    /* background-color: #000; */
+  }
+  .common-title {
+    font-size: 22px;
+  }
+  .common-para {
+    font-size: 18px;
+  }
+  .Team-para {
+    font-size: 18px;
+    /* background-color: red; */
+  }
+  /* .foodie-carousel .item {
+    background-color: red;
+    /* width: 700px; */
 }
 
 @media screen and (max-width: 768px) {
@@ -599,7 +720,11 @@
     width: 87px;
   }
   .rowheight {
-    height: 360px;
+    height: 360px !important;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: red !important; */
   }
   .teammembershin {
     height: 795px !important;

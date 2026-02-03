@@ -56,20 +56,7 @@ $(document).ready(function () {
 });
 
 </script>
-<script>
-$(document).ready(function () {
-  $('.hero-carousel').owlCarousel({
-    items: 1,
-    loop: true,
-    nav: false,
-    dots: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    smartSpeed: 800
-  });
-});
-</script>
+
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 <script>
 let p = 0;
@@ -107,5 +94,121 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   reveals.forEach((reveal) => observer.observe(reveal));
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const reveals = document.querySelectorAll(".reveal");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+        } else {
+          // entry.target.classList.remove("active"); // remove if you want re-animation
+        }
+      });
+    },
+    {
+      threshold: 0.2, // 20% visible triggers animation
+    }
+  );
+
+  reveals.forEach((reveal) => observer.observe(reveal));
+});
+</script>
+
+<script>
+  const container = document.querySelector(".whyChooseusContainer");
+  const reveals = document.querySelectorAll(".reveal-left, .reveal-right");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+          container.classList.add("active");
+        } 
+      });
+    },
+    { threshold: 0.4 }
+  );
+
+  reveals.forEach(el => observer.observe(el));
+</script>
+<script>
+$(document).ready(function () {
+  $(".hero-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    dots: false,
+    nav: false,
+    animateOut: "fadeOut",
+
+    responsive: {
+      0: {
+        items: 1
+      },
+      576: {
+        items: 1
+      },
+      768: {
+        items: 1
+      },
+      992: {
+        items: 1
+      },
+      1200: {
+        items: 1
+      },
+           1600: {
+        items: 1
+      },
+               1800: {
+        items: 1
+      }
+    }
+  });
+});
+</script>
+
+<script>
+$(document).ready(function () {
+  $(".foodie-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    dots: false,
+    nav: false,
+    animateOut: "fadeOut",
+
+    responsive: {
+      0: {
+        items: 1
+      },
+      576: {
+        items: 1
+      },
+      768: {
+        items: 1
+      },
+      992: {
+        items: 1
+      },
+      1200: {
+        items: 1
+      },
+           1600: {
+        items: 1
+      },
+               1800: {
+        items: 1
+      }
+    }
+  });
 });
 </script>
